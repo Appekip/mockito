@@ -18,7 +18,7 @@ public class TilaustenKäsittelyMockitoTest {
     public void testaaKäsittelijäWithMockitoHinnoittelija() {
         // Arrange
         float alkuSaldo = 100.0f;
-        float listaHinta = 30.0f;
+        float listaHinta = 303.0f;
         float alennus = 20.0f;
         float loppuSaldo = alkuSaldo - (listaHinta * (1 - alennus / 100));
         Asiakas asiakas = new Asiakas(alkuSaldo);

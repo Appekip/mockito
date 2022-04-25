@@ -3,8 +3,25 @@ public class FakeHinnoittelija implements IHinnoittelija{
     public FakeHinnoittelija(float alennus) {
         this.alennus = alennus;
     }
+
+
+    @Override
     public float getAlennusProsentti(Asiakas asiakas, Tuote tuote) {
-        return alennus;
+        return 0;
     }
 
+    @Override
+    public void setAlennusProsentti(Asiakas asiakas, float tuote) {
+
+    }
+
+    @Override
+    public void aloita() {
+
+    }
+
+    @Override
+    public void lopeta() {
+
+    }
 }
